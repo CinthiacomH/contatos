@@ -60,3 +60,11 @@
     border-radius: 10px;
     margin-left: 10px;
 }
+
+.item img{
+    max-width: 50%;
+}
+
+.qrcode {
+    align-items: center;
+}
