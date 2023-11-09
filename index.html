@@ -6,66 +6,83 @@
     <title>Contatos</title>
     <link rel="stylesheet" href="src/css/reset.css">
     <link rel="stylesheet" href="src/css/style.css">
-    <link rel="stylesheet" href="src/css/responsive.css">
 </head>
+
 <body>
-    <header class="header">
+    <header class="cabecalho">
         <a href="#" class="logo">
             <img src="./src/images/phone icon.png" alt="phone icon">
             <h1>Contatos</h1>
         </a>
 
-        <nav>
+        <nav class="navegacao">
             <ul class="menu">
-                <li><a href="#">Início</a></li>
-                <li><a href="#">Serviços</a></li>
-                <li><a href="#">Quem somos</a></li>
-                <li><a href="./qrcode.html">Cadastre-se</a></li>
+                <li class="item">
+                    <a href="./index.html">Início</a>
+                </li>
+                
+                <li class="item">
+                    <a href="#servicos">Serviços</a>
+                </li>
+                
+                <li class="item">
+                    <a href="./quem-somos.html">Quem somos</a>
+                </li>
+                
+                <li class="item">
+                    <a href="./qrcode.html">Cadastre-se</a>
+                </li>
             </ul>
         </nav>
     </header>
-    <h1 class="body">Qual serviço você está procurando?</h1>
+    
+    <main class="servicos" id="servicos">
+        <h1 class="body">Qual serviço você está procurando?</h1>
+        <div class="container">
+            <div class="contato">
+                <a href="./contatos.html">Aluguel de mesas</a>
+                <img src="./src/images/aluguel mesas.jpeg" alt="">
+            </div>
+        
+            <div class="contato">
+                <a href="./contatos.html">Carreto</a>
+                <img src="" alt="">
+            </div>
+        
+            <div class="contato">
+                <a href="./contatos.html">Costureira</a>
+                <img src="./src/images/costureira.jpeg" alt="">
+            </div>
+        
+            <div class="contato">
+                <a href="./contatos.html">Decoração de festas</a>
+                <img src="./src/images/decoração festas.jpeg" alt="">
+            </div>
+        
+            <div class="contato">
+                <a href="./contatos.html">Doces</a>
+                <img src="./src/images/doces.jpeg" alt="">
+            </div>
+        
+            <div class="contato">
+                <a href="./contatos.html">Eletricista</a>
+                <img src="./src/images/eletricista.jpeg" alt="">
+            </div>
+        
+            <div class="contato">
+                <a href="./contatos.html">Manicure</a>
+                <img src="./src/images/manicure.jpeg" alt="">
+            </div>
+        
+            <div class="contato">
+                <a href="./contatos.html">Pedreiro</a>
+                <img src="./src/images/pedreiro.jpeg" alt="">
+            </div>
+        </div>
+    </main>
 
-    <div class="container">
-        <div class="item">
-            <a href="./contatos.html">Aluguel de mesas</a>
-            <img src="./src/images/aluguel mesas.jpeg" alt="">
-        </div>
-        
-        <div class="item">
-            <a href="./contatos.html">Carreto</a>
-            <img src="" alt="">
-        </div>
-        
-        <div class="item">
-            <a href="./contatos.html">Costureira</a>
-            <img src="./src/images/costureira.jpeg" alt="">
-        </div>
-        
-        <div class="item">
-            <a href="./contatos.html">Decoração de festas</a>
-            <img src="./src/images/decoração festas.jpeg" alt="">
-        </div>
-        
-        <div class="item">
-            <a href="./contatos.html">Doces</a>
-            <img src="./src/images/doces.jpeg" alt="">
-        </div>
-        
-        <div class="item">
-            <a href="./contatos.html">Eletricista</a>
-            <img src="./src/images/eletricista.jpeg" alt="">
-        </div>
-        
-        <div class="item">
-            <a href="./contatos.html">Manicure</a>
-            <img src="./src/images/manicure.jpeg" alt="">
-        </div>
-        
-        <div class="item">
-            <a href="./contatos.html">Pedreiro</a>
-            <img src="./src/images/pedreiro.jpeg" alt="">
-        </div>
-    </div>
+    <footer class="rodape">
+        <p class="copyright">Todos os direitos reservados</p>
+    </footer>
 </body>
 </html>
