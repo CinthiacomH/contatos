@@ -49,8 +49,10 @@
     color: #fff;
 }
 
-.body{
+.titulo{
     text-align: center;
+    background-color: #E9E9E9;
+    padding: 20px;
 }
 
 .container {
@@ -58,29 +60,26 @@
     display: flex;
     flex-wrap: wrap;
     max-width: 100%;
-    padding: 40px;
+    padding: 10px;
     justify-content: center;     
 }
 
 .container .contato {
     background-color: #A9A9A9;
     display: flex;
-    flex-direction: column;
+    border-radius: 10px;
     align-items: center;
     flex: 0 1 250px;
     margin: 10px;    
 }
 
 .container .contato a{
-    display: flex;
-    /* text-align: center; */
+    text-align: center;
     color: #fff;
     padding: 10px 5px;
-    margin-left: 10px;    
 }
 
 .container .contato img{
-    display: flex;
     align-items: center;
     max-width: 50%;
     padding: 10px 5px;
