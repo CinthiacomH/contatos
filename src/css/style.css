@@ -22,6 +22,11 @@
     align-items: center;
 }
 
+.logo img{
+    max-width: 10%;
+    padding: 10px 5px;
+}
+
 .logo h1{
     font-size: 20px;
     margin-left: 5px;
@@ -49,15 +54,16 @@
 }
 
 .container {
+    background-color: #E9E9E9;
     display: flex;
+    flex-wrap: wrap;
     max-width: 100%;
     padding: 40px;
-    justify-content: center;
-    flex-wrap: wrap;   
+    justify-content: center;     
 }
 
 .container .contato {
-    background-color: #000000;
+    background-color: #A9A9A9;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -66,15 +72,18 @@
 }
 
 .container .contato a{
+    display: flex;
+    /* text-align: center; */
     color: #fff;
     padding: 10px 5px;
-    transition: 0.3s ease-in-out;
-    border-radius: 10px;
-    margin-left: 10px;
+    margin-left: 10px;    
 }
 
 .container .contato img{
+    display: flex;
+    align-items: center;
     max-width: 50%;
+    padding: 10px 5px;
 }
 
 @media(max-width: 624px){
@@ -85,11 +94,13 @@
     .cabecalho .logo{
         margin-bottom: 30px;
     }
-
 }
 
 .qrcode {
-    align-items: center;
+    display: flex;
+    max-width: 100%;
+    padding: 40px;
+    justify-content: center;
 }
 
 .rodape{
