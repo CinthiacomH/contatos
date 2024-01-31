@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contatos</title>
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <a href="index.html" class="logo">
+            <img src="./src/images/phone-call.png" alt="phone icon">
+            <h1>Contatos</h1>
+        </a>
+
+        <nav class="navegacao">
+            <ul class="menu">
+                <li class="item">
+                    <a href="./index.html">Início</a>
+                </li>
+                
+                <li class="item">
+                    <a href="#servicos">Serviços</a>
+                </li>
+                
+                <li class="item">
+                    <a href="./quem-somos.html">Quem somos</a>
+                </li>
+                
+                <li class="item">
+                    <a href="./cadastro.html">Cadastre-se</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <h1 class="titulo">Cadastre-se</h1>
+    
+    <section>
+        <form action="https://api.staticforms.xyz/submit" method="post">
+            <p><b>Seus dados</b></p><br>
+
+            <label>Nome</label>
+            <input type="text" name="name" placeholder="Digite seu nome" autocomplete="off" required>
+
+            <label>Email</label>
+            <input type="text" name="email" placeholder="Digite seu email" autocomplete="off" required>
+
+            <p><b>Dados da empresa</b></p><br>
+
+            <label>Nome</label>
+            <input type="text" name="name" placeholder="Digite o nome da empresa" autocomplete="off" required>
+
+            <label>Qual o seguimento?</label>
+            <select>
+                <option>Aluguel de mesas</option>
+                <option>Carreto</option>
+                <option>Costureira</option>
+                <option>Decoração de festas</option>
+                <option>Doces</option>
+                <option>Eletricista</option>
+                <option>Manicure</option>
+                <option>Pedreiro</option>
+                <option>Outros</option>
+            </select><br>
+
+            <label>Contato</label>
+            <input type="text" name="name" placeholder="Digite o contato da empresa" autocomplete="off" required>
+
+            <label>Rede social</label>
+            <input type="text" name="name" placeholder="Digite a rede social da empresa" autocomplete="off" required>
+
+            <button type="submit">Enviar</button>
+
+            <input type="hidden" name="accessKey" value="b6c21d23-2fd9-4cb5-a874-f04267696c0a">
+            <input type="hidden" name="redirectTo" value="http://127.0.0.1:5501/obrigado.html">
+            
+        </form>
+    </section>    
+    <h2 class="voltar"><a href="./index.html">Voltar</a></h2>
+
+    <footer class="rodape">
+        <p class="copyright">Todos os direitos reservados</p>
+    </footer>
+</body>
+</html>

@@ -45,7 +45,7 @@
 }
 
 .cabecalho .menu .item a:hover{
-    background-color: #000000;
+    background-color: #A9A9A9;
     color: #fff;
 }
 
@@ -75,7 +75,7 @@
 
 .container .contato a{
     text-align: center;
-    color: #fff;
+    color: #1C1C1C;
     padding: 10px 5px;
 }
 
@@ -95,11 +95,64 @@
     }
 }
 
-.qrcode {
+.quem-somos {
+    background-color: #E9E9E9;
+    max-width: 100%;
+    padding: 25px;
+    justify-content: center;
+}
+
+section {
     display: flex;
     max-width: 100%;
-    padding: 40px;
+    padding: 10px 40px;
     justify-content: center;
+    background: #E9E9E9;
+}
+
+section form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+form label {
+    font-size: 17px;
+    margin-bottom: 4px;
+}
+
+form input {
+    padding: 15px;
+    outline: none;
+    border: 0;
+    margin-bottom: 20px;
+    font-size: 15px;
+    transition: all 0.5s;
+}
+
+form input:focus {
+    border-radius: 16px;
+}
+
+form button {
+    padding: 10px 5px;
+    margin-top: 20px;
+    transition: 0.3s ease-in-out;
+    padding: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    background: transparent;
+    border: 2px solid #ffff;    
+}
+
+form button:hover {
+    background-color: #A9A9A9;
+    color: #fff;
+    border-radius: 16px;
+}
+
+.voltar{
+    padding: 15px;
 }
 
 .rodape{
