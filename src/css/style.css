@@ -85,6 +85,14 @@
     padding: 10px 5px;
 }
 
+.container .info {
+    background-color: #A9A9A9;
+    border-radius: 10px;
+    flex: 0 1 250px;
+    margin: 10px;
+    padding: 10px;        
+}
+
 @media(max-width: 624px){
     .container .contato{
         justify-content: center;
@@ -95,7 +103,7 @@
     }
 }
 
-.quem-somos {
+    .quem-somos {
     background-color: #E9E9E9;
     max-width: 100%;
     padding: 25px;

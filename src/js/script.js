@@ -1,6 +1,7 @@
-var counter = 0
+var contador = document.querySelector('.badge');
 
-function countingClicks(){
-  document.getElementById("counting").innerHTML = ++counter
- document.getElementById("botao").disabled = true;  
-}
+  document.querySelector('button').addEventListener('click', function(){
+  var numero = parseInt(contador.textContent) + 1;
+  contador.textContent = numero;
+  //document.getElementById("botao").disabled = true;
+  });
